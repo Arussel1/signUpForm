@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Sign up Form</title>
 </head>
 <body>
@@ -43,13 +44,14 @@
             <div class="block">
                 <div class="form">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="password" id="password" minlength="8" maxlength="32" required>
                 </div>
                 <div class="form">
                     <label for="passCheck">Confirm Password</label>
-                    <input type="password" name="passCheck" id="passCheck" required>
+                    <input type="password" name="passCheck" id="passCheck" minlength="8" maxlength="32" required>
                 </div>
             </div>
+            <span id="error"></span><br>
             <button type="submit">Create Account</button><br>
         </form>
     </div>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up Form</title>
+</head>
+<body>
+    <img src="form-icon.png" alt="logo">
+    <div class="header">
+        <p>
+            This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.
+        </p>
+    </div>
+    
+    <div class="wrapper">
+        
+        <form>
+            <h3>Let's do it!</h3>
+            <div class="block">
+                <div class="form">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="form">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" autocomplete="tel-country-code" required>
+                </div>
+            </div>
+            <div class="block">
+                <div class="form">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form">
+                    <label for="passCheck">Confirm Password</label>
+                    <input type="password" name="passCheck" id="passCheck" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button><br>
+        </form>
+    </div>
+
+    
+    <div class="footer">
+        
+        <p id="login">
+            Already have an account ?  <a> Log in</a>
+        </p>
+        
+</body>
+</html>

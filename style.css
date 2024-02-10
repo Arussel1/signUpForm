@@ -1,12 +1,11 @@
 html{
     background-image: url("background.jpg");
-    background-color:  rgba(175, 169, 172, 0.1);
+    background-color:  #F0FFFF;    ;
     background-size:40%;
     background-repeat: repeat-y;
     position: relative;
-    font-family: Open 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Nunito';
     overflow-x: hidden;
-    color:gray
 }
 img{
     background-color: rgba(87, 81, 84, 0.7);
